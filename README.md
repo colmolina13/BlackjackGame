@@ -1,1 +1,8 @@
 # BlackjackGame
+This is version 1 of a multi-player blackjack experience with synchronization. Currently, it is a single-player blackjack game with the server acting as the dealer. To start the server, "localhost" and whatever 5 numbers you want to act as the port must be written in the command line of BlackjackMultiServer. To connect, the port must be entered into the command line of BlackjackClient. Once connected, the server will ask for your name and then instruct you on how to set up the game. Here are some basic blackjack rules (originally sourced from https://www.venetianlasvegas.com/resort/casino/table-games/how-to-play-blackjack.html, slightly edited to work better with program):
+
+In Blackjack, everyone plays against the dealer. Players receive all cards face up and the dealer’s first card is face up and the second is face down. The object of the game is to get closer to 21 than the dealer without going over 21. If a hand goes over 21, it is called a “bust” and the wager is lost. In 21, Jacks, Queens, Kings and 10s count as 10. An Ace may be played as a one or an 11. All other cards are played at face value.
+
+When you receive your first two cards, you may either “stand” or “hit.” When you “stand” it means you feel you are close enough to 21 and no longer wish any additional cards and indicated by typing "STAND". If you wish to receive another card or “hit,” type "HIT". You may draw as many cards as you want until you are close to 21 or until you “bust.”
+
+If you are closer to 21 than the dealer, you win. If your hand is less than the dealer’s, you lose. If the dealer’s hand “busts”, you win as well. Ties are a standoff or “push".
